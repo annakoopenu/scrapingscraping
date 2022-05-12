@@ -1,0 +1,17 @@
+#https://realpython.com/python-web-scraping-practical-introduction/
+
+from urllib.request import urlopen
+#import request 
+
+print('2')
+
+url = "https://en.wikipedia.org/wiki/Federico_Fellini"
+page = urlopen(url)
+page
+
+print(page)
+
+html_bytes = page.read()
+html = html_bytes.decode("utf-8")
+
+print(html)
