@@ -47,4 +47,7 @@ run at the terminal
 
 8. run spider to see the results    :   scrapy runspider ietf.py    
 
-# from https://www.linkedin.com/learning/web-scraping-with-python/hello-world-with-scrapy?autoSkip=true&autoplay=true&resume=false
+from
+    https://www.linkedin.com/learning/web-scraping-with-python/hello-world-with-scrapy?autoSkip=true&autoplay=true&resume=false
+https://github.com/LinkedInLearning/web-scraping-with-python-2848331
+    
