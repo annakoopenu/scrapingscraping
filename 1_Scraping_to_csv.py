@@ -34,3 +34,7 @@ print('da da datastrata')
 df1 = pd.DataFrame(lst, columns=cols)
 print(df1)
 df1.to_csv('aa1aa.csv')
+
+# task1 - check id df ok, upload to excel
+# task2 - add link as column
+# task3 - try on other site, like il.indeed.com / https://www.drushim.co.il/
