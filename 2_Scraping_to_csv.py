@@ -11,6 +11,7 @@ print(page)
 
 soup = BeautifulSoup(page.content, 'html.parser')
 results = soup.find(class_ = "jobsearch-ResultsList")
+#results = soup.find(id = "mosaic-provider-jobcards")
 
 job_elements = results.find_all("li")
 
